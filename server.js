@@ -9,7 +9,7 @@ app.use(express.static(__dirname));
 
 // Handles any requests that don't match the ones above
 app.get('/', (req, res) =>{
-    res.render('/build/index.html');
+    res.render('/build/index');
 });
 
 app.listen(PORT, () =>{
