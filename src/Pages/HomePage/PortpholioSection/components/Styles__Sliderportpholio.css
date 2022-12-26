@@ -1,0 +1,43 @@
+.my-own-custom-container{
+    max-width: 960px;
+}
+
+.flex-portpholio{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height: 317px;
+    width: 307px;
+}
+.flex-portpholio:hover{
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+}
+.item-portpholio{
+    margin-top:24px;
+}
+.title-item-portpholio{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.4%;
+    /* or 22px */
+    text-align: center;
+    /* #0E100F */
+    color: #0E100F;
+    margin-top: 32px;
+}
+ .react-multi-carousel-list{
+    position: inherit;
+} 
+.react-multiple-carousel__arrow--right{
+    right: 15%;
+}
+.react-multiple-carousel__arrow--left{
+    left: 15%;
+}
+@media (max-width: 1035px){
+.react-multiple-carousel__arrow{
+    position: relative;
+}
+}

@@ -1,0 +1,155 @@
+.wrapper-services{
+    background: #FAFAFA;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+    .container-services{
+        max-width: 961px;
+        margin: 0 auto;
+    }
+    .title-services{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 123.4%;
+        padding-top:100px;
+        color: #0E100F;
+    }
+    .text-title-services{
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 123.4%;
+        color:#4F4F4F;
+        padding-top: 24px;
+    }
+    .flex-services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+    .services-uiux-design, .services-android, .services-ios-apps{
+        width: 300px;
+        height: 310px;
+        background: #FFFFFF;
+        color: #0E100F;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 123.4%;
+        flex: 0 0 auto;
+        margin-bottom: 10px;
+    }
+    .services-uiux-design:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+        height: 364px;
+    } 
+    .services-android:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+        height: 364px;
+    } 
+    .services-ios-apps:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+        height: 364px;
+    }
+    .img-design-2{
+        position: absolute;
+        padding-top: 64px;
+        padding-left: 225px;
+    }
+    .img-design, .img-android, .img-ios_apps{
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 24px;
+    }
+    .text-uiux_design, .text-android, .text-ios_apps{
+        color: #0E100F;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 123.4%;
+        padding-top: 248px;
+        text-align: center;
+    }
+    .text-services{
+        margin-top: 20px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        color: #4F4F4F;
+    }
+    .flex-services-developers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-bottom: 144px;
+    }
+    .developer-hardware, 
+    .developer-frontend,
+    .developer-backend{
+        width: 302px;
+        height: 312px;
+        background: #FFFFFF;
+        flex: 0 0 auto;
+        margin-bottom: 10px;
+    }
+    .text-hardware, 
+    .text-frontend, .text-backend{
+        color: #0E100F;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        padding-top: 248px;
+        text-align: center;
+    }
+    .developer-backend:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    }
+    .developer-frontend:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%); 
+    }
+    .developer-hardware:hover{
+        background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    }
+    .img-hardware, 
+    .img-frontend, .img-backend{
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 24px;
+    }
+    @media (max-width: 945px){
+        .flex-services-developers{
+            justify-content: space-around;
+            padding-bottom: 20px;
+        }
+        .text-services{
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .flex-services{
+            justify-content: space-around;
+        }
+        .title-services{
+            text-align: center;
+        }
+        .text-title-services{
+            text-align: center;
+        }
+        .flex-services{
+            padding-top: 20px;
+        }
+    }
+    

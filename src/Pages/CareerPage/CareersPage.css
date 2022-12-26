@@ -1,0 +1,54 @@
+.wrapper-careerspage{
+    padding-top: 140px; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.careerspage-content{
+    max-width: 961px;
+    margin: 0 auto;
+}
+.title-careerspage{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    color: #0E100F;
+}
+.text-careerspage{
+    color: #4F4F4F;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    padding-top: 24px;
+    max-width: 961px;
+    margin: 0 auto;
+}
+.flex-careerspage{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-careerspage::after {
+    content: "";
+    flex: 0 0 32%;
+    max-width: 310px;
+  }
+@media (max-width: 945px){
+    .wrapper-careerspage{
+        padding-top: 140px;
+    }
+    .title-careerspage{
+        text-align: center;
+    }
+    .text-careerspage{
+        text-align: center;
+    }
+    .flex-careerspage{
+        justify-content: space-around;
+    }
+}

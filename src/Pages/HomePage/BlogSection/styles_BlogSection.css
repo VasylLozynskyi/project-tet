@@ -1,0 +1,117 @@
+.blogsection {
+    font-family: sans-serif;
+    background: #FAFAFA;
+    flex-direction: column; 
+    justify-content: center; 
+  }
+  .seperator {
+    width: 100%;
+  }
+  .carousel-wrapper {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .carouselblog{
+    max-width: 970px;
+    padding-top: 80px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .sc-gKXOVf  {
+    display: none;
+  }
+  .flex-blogitem{
+    display: flex;
+    justify-content: center;
+    height: 365px;
+  }
+  .blog-item{
+    align-items: center;
+    height: 370px;
+    width: 307px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.4%;
+    /* or 22px */
+    text-align: center;
+    /* #0E100F */
+    color: #0E100F;
+    background-color:#FFFFFF;
+  }
+  .blog-item:hover{
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+  }
+  .img-blog{
+    margin-top: 24px;
+  }
+  .title-blog-item{
+    padding-top: 16px;
+    padding-left: 20px;
+    text-align: start;
+  }
+  .flex-header-blog{
+    max-width: 961px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-text-blog,
+  .text-blog{
+    margin-top: 32px;
+    color: #4F4F4F;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    padding-top: 24px;
+    max-width: 961px;
+    margin: 0 auto;
+}
+.text-blog{
+  position: absolute;
+  padding-left: 20px;
+  bottom: 5%;
+
+}
+  .title-blog{
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    color: #0E100F;
+}
+.button-blog{
+    margin-top: 100px;
+    width: 143px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #00C0DC;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;  
+}
+.button-blog:hover{
+    color: #FFFFFF;
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+}
+@media (max-width: 945px){
+    .flex-header-blog{
+        justify-content: space-around;
+    }
+   
+    .text-blog,
+    .text-text-blog{
+        text-align: center;
+    }
+}
+

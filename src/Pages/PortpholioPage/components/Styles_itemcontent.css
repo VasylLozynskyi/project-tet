@@ -1,0 +1,8 @@
+.flex-portpholioPage{
+    background: #FAFAFA;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 317px;
+    width: 307px;
+}

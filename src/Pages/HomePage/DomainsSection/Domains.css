@@ -1,0 +1,103 @@
+.wrapper-domains{
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.domains-container{
+    max-width: 961px;
+    margin: 0 auto;  
+}
+.title-domains{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    color: #0E100F;
+}
+.text-title-domains{
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    color:#4F4F4F;
+    padding-top: 20px;  
+}
+.flex-domains{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 160;
+    padding-top: 80px;
+}
+
+.text-tourism, .text-entertainment, .text-dom-hardware, .text-systems{
+    text-align: center;
+    color:black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 123.4%;
+    padding-top: 22px;
+}
+.domain-tourism, 
+.domain-entertainment, 
+.domain-hardware, 
+.domain-systems {
+    display: block;
+    width: 225px;
+    height: 260px;
+    background: #FAFAFA;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 123.4%;
+    margin-bottom: 10px;
+    flex: 0 0 auto;
+    text-align: center;
+}
+.domain-tourism:hover { 
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    height: 300px;
+}
+.domain-entertainment:hover { 
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    height: 300px;
+} 
+.domain-hardware:hover { 
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    height: 300px;
+}
+.domain-systems:hover { 
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+    height: 300px;
+}
+.img-tourism, .img-entertainment, .img-dom-hardware, .img-systems {
+    padding-top: 24px;
+}
+.text-domains{
+    margin-top: 56px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #4F4F4F;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 945px){
+    .flex-domains{
+        padding:10px;
+        justify-content: space-around;
+    }
+    .text-title-domains{
+        text-align: center;
+    }
+    .title-domains{
+        text-align: center;
+    }
+}

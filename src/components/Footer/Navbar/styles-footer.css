@@ -1,0 +1,29 @@
+
+.header_listf{
+    max-width: 641px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a.header-linkf{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header_listf a{
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: right;
+    position: relative;
+}
+@media (max-width: 780px){
+    .header_listf{
+        display: none;
+    }
+
+}

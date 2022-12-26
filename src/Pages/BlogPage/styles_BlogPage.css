@@ -1,0 +1,73 @@
+.wrapper-bloggpage{
+    padding-top: 140px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.blogg-container{
+    max-width: 961px;
+    margin:0 auto;
+}
+.title-blogg{
+   font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    color: #0E100F;
+}
+.flex-blogg-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.flex-blogg-item:after {
+    content: "";
+    flex: 0 0 32%;
+    max-width: 310px;
+  }
+.title-blogg-item{
+    position: absolute;
+    max-width: 300px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.blogg-item{
+    height: 370px;
+    width: 307px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.4%;
+    /* or 22px */
+    /* #0E100F */
+    color: #0E100F;
+    background: #FAFAFA;
+}
+.text-blogg{
+  color: #4F4F4F;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 123.4%;
+  padding-top: 90px;
+  padding-left: 20px;
+}
+.blogg-item:hover{
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+}
+@media (max-width: 945px){
+    .flex-blogg-item{
+        justify-content: space-around;
+    }
+    .blogg-item{
+        margin: 0 auto;
+    }
+    .title-blogg{
+        text-align: center;
+    }
+}

@@ -1,0 +1,107 @@
+.careerssection {
+    font-family: sans-serif;
+    background-color:FFFFFF;
+    flex-direction: column; 
+    justify-content: center; 
+  }
+  .seperator {
+    width: 100%;
+  }
+  .carousel-wrapper {
+    width: 100%;
+  }
+  .carouselcareers{
+    max-width: 961px;
+    padding-top: 80px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .sc-gKXOVf  {
+    display: none;
+  }
+  .careers-item{
+    align-items: center;
+    height: 312px;
+    width: 302px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.4%;
+    /* or 22px */
+    text-align: center;
+    /* #0E100F */
+    color: #0E100F;
+    background: #FAFAFA;
+  }
+  .careers-item:hover{
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+  }
+
+  .img-careers{
+    margin-top: 24px;
+  }
+  .text-careers{
+    margin-top: 32px;
+  }
+  .flex-header-careers{
+    max-width: 961px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .text-careers{
+    color: #4F4F4F;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    padding-top: 24px;
+    max-width: 961px;
+    margin: 0 auto;
+    
+}
+  .title-careers{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    color: #0E100F;
+    
+}
+.button-careers{
+    margin-top: 100px;
+    width: 143px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #00C0DC;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;  
+}
+.button-careers:hover{
+    color: #FFFFFF;
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+}
+@media (max-width: 945px){
+    .flex-header-careers{
+        justify-content: space-around;
+    }
+    .title-careers,
+    .button-careers{
+        margin-top: 100px;
+    }
+    .text-careers{
+        text-align: center;
+    }
+}
+

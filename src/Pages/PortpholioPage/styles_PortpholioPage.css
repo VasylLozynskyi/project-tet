@@ -1,0 +1,56 @@
+.portpholiopage-wrapper{
+    padding-top:140px;
+    padding-left: 25px;
+    padding-right: 25px;
+}.portpholiopage-content{
+    max-width: 961px;
+    margin: 0 auto;
+}
+.flex-array-portpholiopage{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.title-portpholioPage{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    /* or 44px */
+    letter-spacing: 0.03em;
+    color: #0E100F;
+}
+.flex-buttons-of-types{
+    padding-top: 40px;
+    max-width: 560px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.buttonportpholio{
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 3px solid  #00C0DC;
+}
+.buttonportpholio:hover{
+    background: linear-gradient(211.44deg, #00C0DC 0%, #00D2C6 100%);
+}
+@media (max-width: 945px){
+    .flex-buttons-of-types{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .buttonportpholio{
+        margin:10px 10px;
+    }
+    .flex-array-portpholiopage{
+       justify-content: center;
+    }
+    .title-portpholioPage{
+        text-align: center;
+    }
+}

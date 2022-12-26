@@ -1,0 +1,193 @@
+.wrapper-cardportpholioitem{
+    padding-top: 140px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container-cardportpholioitem{
+    max-width: 961px;
+    margin: 0 auto;
+    position: relative;
+}
+.title-portpholioitem{
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 123.4%;
+    /* or 44px */
+    letter-spacing: 0.03em;
+    color: #0E100F;
+}
+.subtitle-portpholioitem{
+    padding-top: 24px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    /* or 20px */
+    color: #4F4F4F;
+}
+.img-befff1{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    height: 64px;
+    width: 64px;
+}
+.imgimg{
+    position: absolute;
+    max-width: 751px;
+    top: 0;
+    right: -20%;
+}
+.subtext-portpholioitem{
+    max-width: 470px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    /* or 25px */
+    color: #4F4F4F;
+}
+.titleissue{
+    padding-top:150px;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 123.4%;
+/* or 30px */
+color: #0E100F;
+}
+.issue-content{
+    position: absolute;
+    padding-top: 16px;
+    margin-left:20px;
+    max-width: 450px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    /* identical to box height, or 24px */
+    /* #0E100F */
+    color: #0E100F;   
+}
+.issue-content li{
+   list-style-type:disc;
+}
+.solution-content li{
+    list-style-type:disc;
+}
+.issue-content li::marker{
+    color:#00D2C6;
+}
+.solution-content li::marker{
+    color:#00D2C6;
+}
+.imgimg{
+    padding-top:100px;
+}
+.imgissue{
+    position: absolute;
+    right: 0;
+}
+.flex-content-solution{
+    padding-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flexcontainer-textsolution{
+    max-width: 450px;
+}
+.titlesolution{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 123.4%;
+    color: #0E100F;
+}
+.solution-content{
+    padding-top: 16px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #0E100F;
+}
+@media (max-width: 870px){
+    .container-cardportpholioitem{
+        padding-top: 140px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-backgroundimgimg{
+        position: relative;
+        background-size: contain;
+    }
+    .imgimg{
+        padding-top: 10px;
+        width: 100%;
+    }
+    .title-portpholioitem{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .subtitle-portpholioitem{
+        text-align: center;
+    }
+    .img-befff1{
+      display: block;
+      margin: 0 auto;
+    }
+    .subtext-portpholioitem{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .imgimg{
+        display: block;
+        position: relative;
+        background-size: contain;
+        margin: 0 auto;
+        top: 0px;
+        left: 0;
+    }
+    .container-backgroundimgissue{
+        display: flex;
+        justify-content: center;
+    }
+    .imgissue{
+        position: static;
+    }
+    .issue-content{
+        position: static;
+        margin: 0 auto;
+    }
+    .titleissue{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .flex-content-solution{
+        padding-top: 0px;
+        justify-content: center;
+    }
+    .titlesolution{
+        text-align: center;
+    }
+}
+.container-backgroundimgbig{
+    padding-top: 64px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+    margin:0 auto;
+    position: relative;
+    background-size: contain;  
+}
+.imgbig{
+    width: 100%;
+}

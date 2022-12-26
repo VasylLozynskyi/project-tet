@@ -1,0 +1,26 @@
+.items-container-othervacancies{ 
+    margin-top: 40px;
+    height: 317px;
+    margin-bottom: 50px;
+}
+.container-othervacancies{
+max-width: 961px;
+margin: 0 auto;
+padding-top: 100px;
+}
+.Title-othervacancies{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 123.4%;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #0E100F;
+}
+@media (max-width: 945px){
+    .Title-othervacancies{
+        justify-content: center;
+    }
+}
